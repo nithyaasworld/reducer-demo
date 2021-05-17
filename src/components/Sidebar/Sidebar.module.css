@@ -1,0 +1,15 @@
+.sidebar-container{
+    background-color: rgb(227, 255, 127);
+    width: 20vw;
+    min-width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 2em;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}

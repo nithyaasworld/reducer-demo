@@ -1,0 +1,25 @@
+.navbar-container{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 4em;
+}
+.counter-value{
+    font-weight: 700;
+}
+.navbar-right-section{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.reset-btn{
+    background-color: rgb(96, 233, 91);
+    padding: 1em;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(96, 233, 91, 0.5);
+    cursor: pointer;
+}
+.reset-btn:hover{
+    transform: scale(1.05);
+}
