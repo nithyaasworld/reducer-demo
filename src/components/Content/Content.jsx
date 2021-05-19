@@ -1,8 +1,9 @@
 import contentStyles from "./Content.module.css";
 
-export default function Content() {
+export default function Content({counter}) {
   return (
     <div className={contentStyles.container}>
+      {counter}
       <h2>Content</h2>
       <div className={contentStyles["content-wrapper"]}>
         <div className={contentStyles["scrollable-content"]}>
